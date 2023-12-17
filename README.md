@@ -22,9 +22,9 @@
 月份                 | C語言 | Python | JavaScript
 ---------------------------|------|--------|--------------------------------------
 [1 月](2025/01/)   | [minilisp 解譯器](2025/01/c/README.md) | [minGPT 專案](2025/01/python/README.md) | [async/await的背後](2025/01/javascript/README.md)
-[2 月](2025/02/)   | [垃圾蒐集機制](2025/02/c/README.md) | [演算法：複雜度](2025/02/python/README.md) | [...](2025/02/javascript/README.md)
-[3 月](2025/02/)   | [Linux系統程式](2025/02/c/README.md) | [算法：查表法](2025/02/python/README.md) | [...](2025/02/javascript/README.md)
-[4 月](2025/02/)   | [Linux檔案系統](2025/02/c/README.md) | [算法：列舉法](2025/02/python/README.md) | [...](2025/02/javascript/README.md)
+[2 月](2025/02/)   | [垃圾蒐集機制](2025/02/c/README.md) | [演算法：複雜度](2025/02/python/README.md) | [CORS 跨站存取](2025/02/javascript/README.md)
+[3 月](2025/02/)   | [Linux系統程式](2025/02/c/README.md) | [算法：查表法](2025/02/python/README.md) | [SSL 加密通訊](2025/02/javascript/README.md)
+[4 月](2025/02/)   | [Linux檔案系統](2025/02/c/README.md) | [算法：列舉法](2025/02/python/README.md) | [Salt 加鹽後的密碼](2025/02/javascript/README.md)
 [5 月](2025/02/)   | [行程 Process](2025/02/c/README.md) | [算法：雜湊法](2025/02/python/README.md) | [...](2025/02/javascript/README.md)
 [6 月](2025/02/)   | [Posix Thread](2025/02/c/README.md) | [算法：暴力法](2025/02/python/README.md) | [...](2025/02/javascript/README.md)
 [6 月](2025/02/)   | [死結 Deadlock](2025/02/c/README.md) | [算法：迭代法](2025/02/python/README.md) | [...](2025/02/javascript/README.md)
