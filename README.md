@@ -10,7 +10,7 @@
 [4 月](2024/04/)   | [自製虛擬機](2024/04/c/README.md) | [圖靈的機器](2024/04/python/README.md) | [用 deno 寫 Blog 系統](2024/04/javascript/README.md)
 [5 月](2024/05/)   | [自製 JIT 立即編譯](2024/05/c/README.md) | [喬姆斯基的語法](2024/05/python/README.md) | [佈署 deno 程式](2024/05/javascript/README.md)
 [6 月](2024/06/)   | [自製目的檔](2024/06/c/README.md) | [庫克與 NP-Complete](2024/06/python/README.md) | [Fetch api 的用法](2024/06/javascript/README.md)
-[7 月](2024/07/)   | [llama2.c 專案](2024/07/c/README.md) | [馮紐曼的報告](2024/07/python/README.md) | [deno 的 WebSocket 通訊](2024/07/javascript/README.md)
+[7 月](2024/07/)   | [llama2.c 專案](2024/07/c/README.md) | [馮紐曼的報告](2024/07/python/README.md) | [WebSocket 通訊](2024/07/javascript/README.md)
 [8 月](2024/08/)   | [minilisp 解譯器](2024/08/c/README.md) | [從語言到機器](2024/08/python/README.md) | [deno 與資料庫](2024/08/javascript/README.md)
 [9 月](2024/09/)   | [RISC-V 裸機上的 Hello](2024/09/c/README.md) | [爬山演算法](2024/09/python/README.md) | [deno 工具的使用](2024/09/javascript/README.md)
 [10 月](2024/10/)   | [RISC-V 內文切換](2024/10/c/README.md) | [梯度下降法](2024/10/python/README.md) | [發布 deno 套件](2024/10/javascript/README.md)
