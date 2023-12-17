@@ -2,7 +2,7 @@
 
 ## 2024 年
 
-程式人雜誌                 | C語言 | Python | JavaScript/Deno
+月份                 | C語言 | Python | JavaScript/Deno
 ---------------------------|------|--------|--------------------------------------
 [1 月](2024/01/)   | [gcc 工具的用法](2024/01/c/README.md) | [希爾伯特與自動推論](2024/01/python/README.md) | [deno 環境簡介](2024/01/javascript/README.md)
 [2 月](2024/02/)   | [C11 之後的新語法](2024/02/c/README.md) | [哥德爾與一階邏輯](2024/02/python/README.md) | [deno 程式基礎](2024/02/javascript/README.md)
