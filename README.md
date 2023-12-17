@@ -21,4 +21,5 @@
 
 月份                 | C語言 | Python | JavaScript
 ---------------------------|------|--------|--------------------------------------
-[1 月](2024/01/)   | [minilisp 解譯器](2024/01/c/README.md) | [minGPT 專案](2024/01/python/README.md) | [async/await的背後](2024/01/javascript/README.md)
+[1 月](2025/01/)   | [minilisp 解譯器](2025/01/c/README.md) | [minGPT 專案](2025/01/python/README.md) | [async/await的背後](2025/01/javascript/README.md)
+[2 月](2025/02/)   | [垃圾蒐集機制](2025/02/c/README.md) | [...](2025/02/python/README.md) | [...](2025/02/javascript/README.md)
