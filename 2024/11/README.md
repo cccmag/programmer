@@ -2,5 +2,5 @@
 
 * [程式新聞](_editor/news.md)
 * [C語言：mini-riscv-os (3) -- 多工 Multi-Tasking](c/README.md)
-* [Python：人工智慧 (3) -- minGPT 專案](python/README.md)
+* [Python：人工智慧 (3) -- 循環神經網路 RNN](python/README.md)
 * [JavaScript：Deno (11) -- Fresh 全端框架(類似 next.js)](javascript/README.md)
