@@ -15,4 +15,10 @@
 [9 月](2024/09/)   | [RISC-V 裸機上的 Hello](2024/09/c/README.md) | [爬山演算法](2024/09/python/README.md) | [deno 工具的使用](2024/09/javascript/README.md)
 [10 月](2024/10/)   | [RISC-V 內文切換](2024/10/c/README.md) | [梯度下降法](2024/10/python/README.md) | [發布 deno 套件](2024/10/javascript/README.md)
 [11 月](2024/11/)   | [RISC-V 多工 OS](2024/11/c/README.md) | [反傳遞算法 micrograd](2024/11/python/README.md) | [Fresh 全端框架](2024/11/javascript/README.md)
-[12 月](2024/12/)   | [RISC-V 裸機上的 Hello](2024/12/c/README.md) | [循環神經網路 RNN](2024/12/python/README.md) | [deno 的 std 標準函式庫](2024/12/javascript/README.md)
+[12 月](2024/12/)   | [RISC-V 時間中斷](2024/12/c/README.md) | [循環神經網路 RNN](2024/12/python/README.md) | [deno 的 std 標準函式庫](2024/12/javascript/README.md)
+
+## 2025 年
+
+月份                 | C語言 | Python | JavaScript
+---------------------------|------|--------|--------------------------------------
+[1 月](2024/01/)   | [RISC-V 可搶先 OS](2024/01/c/README.md) | [minGPT 專案](2024/01/python/README.md) | [async/await的背後](2024/01/javascript/README.md)
