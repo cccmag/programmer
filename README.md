@@ -1,5 +1,9 @@
 # 程式人雜誌
 
+    作者：陳鍾誠 + ChatGPT
+    取材：維基百科 + Github 上的素材
+    圖片繪製： Bing Image Creator
+
 ## 2024 年
 
 月份               | 工具技能 | C語言 | Python | 網站  JavaScript
