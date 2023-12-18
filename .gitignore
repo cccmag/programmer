@@ -1,3 +1,17 @@
+# 濾掉沒有副檔名的檔案。
+# 參考 https://stackoverflow.com/questions/19023550/how-do-i-add-files-without-dots-in-them-all-extension-less-files-to-the-gitign
+*
+!/**/
+!*.*
+
+!Makefile
+!README
+!LICENSE
+!AUTHORS
+!TODO
+
+# C
+*.o
 *.exe
 *.zip
 *.bin

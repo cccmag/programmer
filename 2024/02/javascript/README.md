@@ -1,26 +1,9 @@
-# Deno 程式基礎 (JavaScript)
+# Deno (2) -- 程式基礎 (JavaScript)
 
     本文為 ChatGPT 撰寫，經《陳鍾誠》校閱修改
-    prompt : 請寫一篇 1000 字的 gcc 工具鏈用法
+    prompt : 請寫一篇 1000 字的 Deno 程式基礎
 
 Deno 是一個用於執行 JavaScript 和 TypeScript 的運行時環境。它與 Node.js 相似，但具有更好的安全性和設計。在本文中，我們將介紹 Deno 的基礎知識，包括安裝 Deno、執行腳本以及使用內置模組等。
-
-## 安裝 Deno
-
-首先，我們需要先安裝 Deno 才能開始使用它。Deno 可以在多個平台上運行，包括 macOS、Linux 和 Windows。只需在終端機中執行以下命令即可安裝 Deno：
-
-```bash
-$ curl -fsSL https://deno.land/x/install/install.sh | sh
-```
-
-安裝完成後，將 Deno 添加到環境變量中，以便可以從任何地方執行 Deno：
-
-```bash
-$ export DENO_INSTALL="/home/<username>/.deno"
-$ export PATH="$DENO_INSTALL/bin:$PATH"
-```
-
-現在，我們已經成功安裝了 Deno。你可以在終端機中輸入 `deno --version` 命令來檢查 Deno 的版本。
 
 ## Deno 腳本
 

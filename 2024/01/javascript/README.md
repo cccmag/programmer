@@ -1,7 +1,7 @@
-# Deno (1): 比 node.js 更新的 JavaScript server 執行環境
+# Deno (1) -- 比 node.js 更新的 JavaScript server 執行環境
 
-    本文為 ChatGPT 撰寫，經作者校閱修改
-    prompt : 請寫一篇 1000 字的 gcc 工具鏈用法
+    本文為 ChatGPT 撰寫，經《陳鍾誠》校閱修改
+    prompt : 請寫一篇 1000 字的 deno 執行環境簡介 (JavaScript)
 
 
 ## 導論
@@ -32,17 +32,24 @@ Deno 是一個現代、安全且具有高度簡潔設計的運行時環境，用
 
 ## 安裝 Deno
 
-Deno 提供了一個簡單的安裝過程，支持多種操作系統。開發者可以通過官方提供的安裝腳本或包管理器來安裝 Deno。以下是一個基本的安裝示例：
+Deno 提供了一個簡單的安裝過程，支持多種操作系統。開發者可以通過官方提供的安裝腳本或包管理器來安裝 Deno。
 
-```bash
-curl -fsSL https://deno.land/x/install/install.sh | sh
-```
+請參考
+
+* https://docs.deno.com/runtime/manual/getting_started/installation
+
+在 windows Powershell 中您可以使用下列指令安裝
+
+    irm https://deno.land/install.ps1 | iex
+
+若有裝 choco 可以用更簡單的方法安裝
+
+    choco install deno
+
 
 安裝完成後，你可以使用以下命令來確認 Deno 是否成功安裝：
 
-```
-deno --version
-```
+    deno --version
 
 ## 使用 Deno
 

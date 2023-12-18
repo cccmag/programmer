@@ -7,7 +7,7 @@
 
 ## 引言
 
-在不同的作業系統中，套件管理工具是一個極為重要的元件，它們讓使用者可以輕鬆地安裝、更新、卸載軟體套件。本文將探討五種不同系統的套件管理工具，分別是Chocolatey（Windows）、Homebrew（macOS）、APT（Ubuntu/Debian）、Pacman（Arch Linux）、以及Yum（Fedora/CentOS）。
+在不同的作業系統中，套件管理工具是一個極為重要的元件，它們讓使用者可以輕鬆地安裝、更新、卸載軟體套件。本文將探討五種不同系統的套件管理工具，分別是Chocolatey（Windows）、Homebrew（macOS）、APT（Ubuntu/Debian）、Pacman（Arch Linux/Windows msys2）、以及Yum（Fedora/CentOS）。
 
 ## Chocolatey (Windows)：
 
