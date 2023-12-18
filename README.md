@@ -22,7 +22,7 @@
 月份                 | 工具技能  | C語言 | Python | 網站 JavaScript
 ---------------------|----------|------|--------|--------------------------------------
 [1 月](2025/01/README.md)   | [LLVM 編譯器工具鏈](2024/01/skill/README.md) | [minilisp 解譯器](2025/01/c/README.md) | [minGPT 專案](2025/01/python/README.md) | [async/await的背後](2025/01/javascript/README.md)
-[2 月](2025/02/README.md)   | [npm 套件管理員](2024/01/skill/README.md) | [垃圾蒐集機制](2025/02/c/README.md) | [演算法：複雜度](2025/02/python/README.md) | [CORS 跨站存取](2025/02/javascript/README.md)
+[2 月](2025/02/README.md)   | [npm 套件管理員](2024/01/skill/README.md) | [垃圾蒐集機制](2025/02/c/README.md) | [算法：複雜度](2025/02/python/README.md) | [CORS 跨站存取](2025/02/javascript/README.md)
 [3 月](2025/02/README.md)   | [pip 套件安裝器](2024/01/skill/README.md) | [Linux系統程式](2025/02/c/README.md) | [算法：查表法](2025/02/python/README.md) | [SSL 加密通訊](2025/02/javascript/README.md)
 [4 月](2025/02/README.md)   | [GreenShot 截圖](2024/01/skill/README.md) | [Linux檔案系統](2025/02/c/README.md) | [算法：列舉法](2025/02/python/README.md) | [密碼加鹽後儲存](2025/02/javascript/README.md)
 [5 月](2025/02/README.md)   | [命令列 Shell](2024/01/skill/README.md) | [行程 Process](2025/02/c/README.md) | [算法：雜湊法](2025/02/python/README.md) | [HTML 基礎](2025/02/javascript/README.md)
@@ -44,7 +44,7 @@
 [4 月](2026/04/README.md)   | [Objdump目的檔傾印](2026/04/skill/README.md) | [xv6：分頁機制](2026/04/c/README.md) | [AI：強化學習](2026/04/python/README.md) | [自製小遊戲](2026/04/javascript/README.md)
 [5 月](2026/05/README.md)   | [Makefile 專案建置](2026/05/skill/README.md) | [xv6：鎖定與同步](2026/05/c/README.md) | [AI：Gym 強化學習環境](2026/05/python/README.md) | [Three.js 3D 繪圖](2026/05/javascript/README.md)
 [6 月](2026/06/README.md)   | [CMake 專案建置](2026/05/skill/README.md) | [xv6：檔案系統](2026/06/c/README.md) | [AI：馬可夫鏈](2026/05/python/README.md) | [Google 地圖](2026/06/javascript/README.md)
-[7 月](2026/07/README.md)   | [Conan 套件安裝](2026/07/skill/README.md) | [xv6: 習題與解答](2026/07/c/README.md) | [AI：EM 演算法](2026/07/python/README.md) | [DOM 文件模型](2026/07/javascript/README.md)
+[7 月](2026/07/README.md)   | [Conan 套件安裝](2026/07/skill/README.md) | [xv6: 習題與解答](2026/07/c/README.md) | [AI：EM 算法](2026/07/python/README.md) | [DOM 文件模型](2026/07/javascript/README.md)
 [8 月](2026/08/README.md)   | [Jupiter 交談式 Python](2026/08/skill/README.md) | [xv6: 衍生專案](2026/08/c/README.md) | [AI：馬可夫決策過程](2026/08/python/README.md) | [BOM 瀏覽器模型](2026/08/javascript/README.md)
 [9 月](2026/09/README.md)   | [Colab 線上 Jupiter](2026/09/skill/README.md) | [llama2.c 專案](2026/09/c/README.md) | [AI：Q-Table](2026/09/python/README.md) | [Storage 前端存儲](2026/09/javascript/README.md)
 [10月](2026/10/README.md)   | [Deno Jupiter](2026/10/skill/README.md) | [自製文件檢索引擎](2026/10/c/README.md) | [AI:Q-Learning ](2026/10/python/README.md) | [HTML中的影音標籤](2026/10/javascript/README.md)
