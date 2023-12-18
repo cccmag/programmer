@@ -1,7 +1,6 @@
-# Deno 程式基礎 (JavaScript)
+## 請寫一篇 1000 字的  deno 程式基礎 (javascript)
 
-    本文為 ChatGPT 撰寫，經《陳鍾誠》校閱修改
-    prompt : 請寫一篇 1000 字的 gcc 工具鏈用法
+# Deno 程式基礎 (JavaScript)
 
 Deno 是一個用於執行 JavaScript 和 TypeScript 的運行時環境。它與 Node.js 相似，但具有更好的安全性和設計。在本文中，我們將介紹 Deno 的基礎知識，包括安裝 Deno、執行腳本以及使用內置模組等。
 

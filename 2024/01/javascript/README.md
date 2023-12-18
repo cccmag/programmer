@@ -1,5 +1,9 @@
 # Deno (1): 比 node.js 更新的 JavaScript server 執行環境
 
+    本文為 ChatGPT 撰寫，經作者校閱修改
+    prompt : 請寫一篇 1000 字的 gcc 工具鏈用法
+
+
 ## 導論
 
 Deno 是一個現代、安全且具有高度簡潔設計的運行時環境，用於執行 JavaScript 和 TypeScript 代碼。它是由 Node.js 的創始人 Ryan Dahl 領導的開源項目，目的是解決 Node.js 中的一些問題，同時引入新的特性和安全機制。Deno 的名字是 "Node" 的字母重新排列，代表著 Node.js 的進化。

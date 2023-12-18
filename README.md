@@ -5,7 +5,7 @@
 月份               | 工具技能 | C語言 | Python | 網站  JavaScript
 -------------------|----------|------|--------|--------------------------------------
 [1 月](2024/01/README.md)   | [套件安裝器](2024/01/skill/README.md) | [gcc 工具的用法](2024/01/c/README.md) | [希爾伯特與自動推論](2024/01/python/README.md) | [deno 環境簡介](2024/01/javascript/README.md)
-[2 月](2024/02/README.md)   | [VsCode 編輯器](2024/01/skill/README.md) | [C語言的新語法](2024/02/c/README.md) | [哥德爾與一階邏輯](2024/02/python/README.md) | [deno 程式基礎](2024/02/javascript/README.md)
+[2 月](2024/02/README.md)   | [VsCode 編輯器](2024/02/skill/README.md) | [C語言的新語法](2024/02/c/README.md) | [哥德爾與一階邏輯](2024/02/python/README.md) | [deno 程式基礎](2024/02/javascript/README.md)
 [3 月](2024/03/README.md)   | [Git 版本管理](2024/01/skill/README.md) | [自製編譯器 C4](2024/03/c/README.md) | [丘奇與 λ-Calculus](2024/03/python/README.md) | [deno 框架 oak](2024/03/javascript/README.md)
 [4 月](2024/04/README.md)   | [Github 專案分享](2024/01/skill/README.md) | [自製虛擬機 VM4](2024/04/c/README.md) | [圖靈的機器](2024/04/python/README.md) | [用 deno 寫 Blog 系統](2024/04/javascript/README.md)
 [5 月](2024/05/README.md)   | [Github Pages 架站](2024/01/skill/README.md) | [x86組合語言](2024/05/c/README.md) | [喬姆斯基的語法](2024/05/python/README.md) | [佈署 deno 程式](2024/05/javascript/README.md)

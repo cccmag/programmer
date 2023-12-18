@@ -1,194 +1,79 @@
-# C4 編譯器 (1) -- 500 行的編譯器
+# GCC 工具鏈用法
 
-c4 編譯器專案是一個極簡主義的 C 語言編譯器，由 Robert Swierczek 開發。該專案旨在實現一個極簡的 C 語言編譯器，總共只有五百多行，包含四個主要功能函數。這個編譯器提供了最基本的 C 語言特性，包括 char、int 和指標類型，以及if、while、return 和表達式語句等功能。它具有足夠的功能來實現自我編譯，同時保持極小的代碼量。
+    本文為 ChatGPT 撰寫，經《陳鍾誠》校閱修改
+    prompt : 請寫一篇 1000 字的 gcc 工具鏈用法
 
-該編譯器的主要特點包括：
 
-1. 支援 char、int 和指標類型
-2. 支援 if、while、return 和表達式語句
-3. 只包含四個主要功能函數，實現了極簡主義的編譯器
-4. 具有足夠的功能來實現自我編譯和更多
+GCC（GNU Compiler Collection）是一個開源的編程語言編譯器套件，被廣泛用於開發各種不同類型的軟體。它支援多種語言，包括C、C++、Fortran、Objective-C、Ada等。GCC工具鏈由多個工具組成，可以執行編譯、連接和調試等操作。在這篇文章中，我們將著重介紹GCC工具鏈的常用用法。
 
-## 使用方法：
+## 編譯程式碼
 
-```
-gcc -o c4 c4.c
-./c4 hello.c
-./c4 -s hello.c
-
-./c4 c4.c hello.c
-./c4 c4.c c4.c hello.c
-```
-
-c4.c 文件包含了編譯器的主要邏輯，並且實現了 char、int 和指標類型，以及 if、while、return 等語句。這個編譯器的設計目的是讓代碼保持極小，同時能實現基本的 C 語言編譯功能。
-
-c4 編譯器可以自我編譯，所以你可以看到 `./c4 c4.c hello.c` 這樣的指令，可以將 c4.c 編譯出來的那個編譯器，再拿來編譯 hello.c
-
-c4 編譯器內含一個《堆疊機架構的虛擬機》，該虛擬機的指令集非常簡單，而且包含了 printf, malloc, exit 等函數，非常經典，我們會在本系列文章中介紹這個虛擬機。
-
-該專案的 GitHub 頁面：https://github.com/rswier/c4
-
-其授權許可證為：GPL-2.0 license
-
-## 修改後的 c4
-
-c4 寫得很好，但是其虛擬機沒有獨立成函數，另外沒有中文註解，所以我 fork 後修改了一版放在以下網址
-
-* https://github.com/ccc-c/c4
-
-並且寫了 C4 的設計與說明文件，請參考
-
-* https://github.com/ccc-c/c4/wiki
-
-## 編譯
-
-```bash
-ccckmit@asus MINGW64 /d/ccc/程式人雜誌/202401/01-c4
-$ gcc c4.c -o c4
-```
-
-## 執行 hello.c
-
-檔案: hello.c
-
-```c
-#include <stdio.h>
-
-int main()
-{
-  printf("hello, world\n");
-  return 0;
-}
-```
-
-編譯執行 hello.c
-
-```bash
-ccckmit@asus MINGW64 /d/ccc/程式人雜誌/202401/01-c4
-$ ./c4 hello.c
-hello, world
-exit(0) cycle = 9
-```
-
-印出 hello.c 的組合語言
+GCC的最基本用法是用於編譯程式碼。可以使用`gcc`命令來將C或C++程式碼編譯成可執行檔。例如，要編譯名為`hello.c`的C程式碼，可以執行以下命令：
 
 ```
-ccckmit@asus MINGW64 /d/ccc/程式人雜誌/202401/01-c4
-$ ./c4 -s hello.c
-1: #include <stdio.h>
-2:
-3: int main()
-4: {
-5:   printf("hello, world\n");
-    ENT  0
-    IMM  5046432
-    PSH
-    PRTF
-    ADJ  1
-6:   return 0;
-    IMM  0
-    LEV
-7: }
-    LEV
+gcc -o hello hello.c
 ```
 
-## 費氏數列
+這將會將`hello.c`編譯成可執行檔`hello`。`-o`選項用於指定輸出檔名。
 
-檔案 test/fib.c
+如果需要編譯C++程式碼，只需將檔案名後綴更改為`.cpp`，如`hello.cpp`，然後使用相同的`gcc`命令編譯。
 
-```c
-#include <stdio.h>
+除了基本的編譯外，GCC還支援許多其他選項和參數，可以用來控制編譯行為。例如，可以使用`-Wall`選項來開啟所有警告信息，或使用`-O2`選項來優化程式碼。可以通過查閱GCC的官方文件來了解詳細的選項和參數。
 
-int f(int n) {
-  if (n<=0) return 0;
-  if (n==1) return 1;
-  return f(n-1) + f(n-2);
-}
+## 靜態連接
 
-int main() {
-  printf("f(7)=%d\n", f(7));
-}
+GCC不僅可以編譯程式碼，還可以將多個目標文件鏈接在一起，生成最終的可執行檔。這個過程稱為連接。GCC使用`ld`作為連接器，可以通過`gcc`命令進行連接。
+
+例如，假設我們有一個名為`hello.o`的目標文件，我們可以使用以下命令將它連接成可執行檔：
+
+```
+gcc -o hello hello.o
 ```
 
-編譯執行 test/fib.c
+連接時，GCC會自動尋找所需的庫文件並進行連接。如果需要使用其他庫文件，可以使用`-l`選項指定。例如，要連接`libm`庫文件，可以使用以下命令：
 
-```bash
-$ ./c4 test/fib.c
-f(7)=13
-exit(8) cycle = 920
+```
+gcc -o hello hello.o -lm
 ```
 
-印出其 test/fib.c 的組合語言
+注意，`-l`選項後面跟著的是庫文件的名稱，不需要指定文件後綴。
 
+## 動態連接
 
-```bash
-ccckmit@asus MINGW64 /d/ccc/程式人雜誌/202401/01-c4
-$ ./c4 -s test/fib.c
-1: #include <stdio.h>
-2:
-3: int f(int n) {
-4:   if (n<=0) return 0;
-    ENT  0
-    LLA  2
-    LI
-    PSH
-    IMM  0
-    LE
-    BZ   0
-    IMM  0
-    LEV
-5:   if (n==1) return 1;
-    LLA  2
-    LI
-    PSH
-    IMM  1
-    EQ
-    BZ   0
-    IMM  1
-    LEV
-6:   return f(n-1) + f(n-2);
-    LLA  2
-    LI
-    PSH
-    IMM  1
-    SUB
-    PSH
-    JSR  4653208
-    ADJ  1
-    PSH
-    LLA  2
-    LI
-    PSH
-    IMM  2
-    SUB
-    PSH
-    JSR  4653208
-    ADJ  1
-    ADD
-    LEV
-7: }
-    LEV
-8:
-9: int main() {
-10:   printf("f(7)=%d\n", f(7));
-    ENT  0
-    IMM  4915360
-    PSH
-    IMM  7
-    PSH
-    JSR  4653208
-    ADJ  1
-    PSH
-    PRTF
-    ADJ  2
-11: }
-    LEV
+除了靜態連接，GCC還支援動態連接。動態連接意味著執行檔不包含完整的庫代碼，而是在運行時從指定的庫文件中加載代碼。動態連接可以減少可執行檔的大小，並允許不同的程式共享相同的庫。
+
+要執行動態連接，需要使用`-shared`選項來生成共享庫文件。例如，假設我們有一個名為`libhello.c`的C程式碼，可以使用以下命令將它編譯成共享庫：
+
+```
+gcc -shared -o libhello.so libhello.c
 ```
 
-您可以看到上述的組合語言非常精簡，因為 c4 的虛擬機設計得很好，我們將在下期雜誌中介紹這個虛擬機的設計。
+這將會生成名為`libhello.so`的共享庫文件。`-shared`選項用於指定生成共享庫。
 
+在連接時，需要使用`-l`選項指定共享庫文件的名稱。例如，要連接名為`libhello.so`的共享庫，可以使用以下命令：
 
+```
+gcc -o hello hello.o -L. -lhello
+```
 
+其中，`-L`選項用於指定庫文件搜索路徑。在這個例子中，使用`.`表示當前目錄。`-l`選項後面跟著的是共享庫文件的名稱，不需要指定文件後綴。
 
+## 調試程式
 
+GCC還提供了用於調試程式的工具。其中最常用的是GDB（GNU Debugger），它是一個功能強大的調試器，可以用於追蹤程式的執行和檢查變數的值。
 
+要使用GDB調試程式，需要將`-g`選項添加到編譯命令中。例如，要調試名為`hello.c`的程式碼，可以使用以下命令：
+
+```
+gcc -g -o hello hello.c
+```
+
+這將會生成帶有調試信息的可執行檔`hello`。然後，可以使用以下命令啟動GDB：
+
+```
+gdb hello
+```
+
+在GDB中，可以使用各種命令來控制程式的執行，例如`run`命令用於啟動程式，`break`命令用於設置斷點，`print`命令用於顯示變數的值，等等。可以通過查閱GDB的官方文件來了解更多的命令和用法。
+
+綜上所述，我們介紹了GCC工具鏈的一些常用用法，包括編譯程式碼、靜態連接、動態連接和調試程式。這只是GCC的一部分功能，它還有更多強大的特性可以用於不同的開發需求。如有需要，建議查閱GCC的官方文件以獲取更詳細的信息和指導。
