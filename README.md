@@ -47,6 +47,6 @@
 [7 月](2026/07/README.md)   | [Conan 套件安裝](2026/07/skill/README.md) | [xv6: 習題與解答](2026/07/c/README.md) | [AI：EM 算法](2026/07/python/README.md) | [DOM 文件模型](2026/07/javascript/README.md)
 [8 月](2026/08/README.md)   | [Jupiter 交談式 Python](2026/08/skill/README.md) | [xv6: 衍生專案](2026/08/c/README.md) | [AI：馬可夫決策過程](2026/08/python/README.md) | [BOM 瀏覽器模型](2026/08/javascript/README.md)
 [9 月](2026/09/README.md)   | [Colab 線上 Jupiter](2026/09/skill/README.md) | [llama2.c 專案](2026/09/c/README.md) | [AI：Q-Table](2026/09/python/README.md) | [Storage 前端存儲](2026/09/javascript/README.md)
-[10月](2026/10/README.md)   | [Deno Jupiter](2026/10/skill/README.md) | [自製文件檢索引擎](2026/10/c/README.md) | [AI:Q-Learning ](2026/10/python/README.md) | [HTML中的影音標籤](2026/10/javascript/README.md)
-[11月](2026/11/README.md)   | [Deno test 測試](2026/11/skill/README.md) | [自製 B-Tree](2026/11/c/README.md) | [AI: AlphaZero 下棋](2026/11/python/README.md) | [Markdown 轉 HTML](2026/11/javascript/README.md)
+[10月](2026/10/README.md)   | [Deno Jupiter](2026/10/skill/README.md) | [自製文件檢索引擎](2026/10/c/README.md) | [AI：Q-Learning ](2026/10/python/README.md) | [HTML中的影音標籤](2026/10/javascript/README.md)
+[11月](2026/11/README.md)   | [Deno test 測試](2026/11/skill/README.md) | [自製 B-Tree](2026/11/c/README.md) | [AI：AlphaZero 下棋](2026/11/python/README.md) | [Markdown 轉 HTML](2026/11/javascript/README.md)
 [12月](2026/12/README.md)   | [LaTex 數學式](2026/12/skill/README.md) | [自製 LSM-Tree](2026/12/c/README.md) | [AI：隱馬可夫模型](2026/12/python/README.md) | [MathJax 數學式](2026/12/javascript/README.md)
