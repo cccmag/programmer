@@ -1,8 +1,6 @@
 # 程式人雜誌
 
-## 2024 年
-
-月份               | 工具技能 | C 語言 | Python | 網站  JavaScript
+2024 年            | 工具技能 | C 語言 | Python | 網站  JavaScript
 -------------------|----------|------|--------|--------------------------------------
 [1 月](2024/01/README.md)   | [套件安裝器](2024/01/skill/README.md) | [gcc 工具的用法](2024/01/c/README.md) | [希爾伯特與自動推論](2024/01/python/README.md) | [deno 環境簡介](2024/01/javascript/README.md)
 [2 月](2024/02/README.md)   | [VsCode 編輯器](2024/02/skill/README.md) | [C 語言的新語法](2024/02/c/README.md) | [哥德爾與一階邏輯](2024/02/python/README.md) | [deno 程式基礎](2024/02/javascript/README.md)
@@ -17,9 +15,9 @@
 [11 月](2024/11/README.md)   | [Github 上的 Markdown](2024/01/skill/README.md) | [RISC-V 時間中斷](2024/11/c/README.md) | [反傳遞算法 micrograd](2024/11/python/README.md) | [發布 deno 套件](2024/11/javascript/README.md)
 [12 月](2024/12/README.md)   | [ssh 遠端登入](2024/01/skill/README.md) | [RISC-V 可搶先 OS](2024/12/c/README.md) | [循環神經網路 RNN](2024/12/python/README.md) | [deno 的 std 標準函式庫](2024/12/javascript/README.md)
 
-## 2025 年
+----
 
-月份                 | 工具技能  | C 語言 | Python | 網站 JavaScript
+2025 年                 | 工具技能  | C 語言 | Python | 網站 JavaScript
 ---------------------|----------|------|--------|--------------------------------------
 [1 月](2025/01/README.md)   | [LLVM 編譯器工具鏈](2024/01/skill/README.md) | [minilisp 解譯器](2025/01/c/README.md) | [minGPT 專案](2025/01/python/README.md) | [async/await的背後](2025/01/javascript/README.md)
 [2 月](2025/02/README.md)   | [npm 套件管理員](2024/01/skill/README.md) | [垃圾蒐集機制](2025/02/c/README.md) | [算法：複雜度](2025/02/python/README.md) | [CORS 跨站存取](2025/02/javascript/README.md)
@@ -34,9 +32,9 @@
 [11 月](2025/02/README.md)   | [Hugo 網誌架站](2024/01/skill/README.md) | [Non-Blocking 機制](2025/02/c/README.md) | [算法：分割擊破法](2025/02/python/README.md) | [前端 JavaScript 基礎](2025/02/javascript/README.md)
 [12 月](2025/02/README.md)   | [QEMU 虛擬機](2024/01/skill/README.md) | [mmap 共用記憶體](2025/02/c/README.md) | [算法：動態規劃法](2025/02/python/README.md) | [用書籤 hash 做路由](2025/02/javascript/README.md)
 
-## 2026 年
+----
 
-月份                 | 工具技能  | C 語言 | Python | 網站 JavaScript
+2026 年              | 工具技能  | C 語言 | Python | 網站 JavaScript
 ---------------------|----------|------|--------|--------------------------------------
 [1 月](2026/01/README.md)   | [Curl 抓網頁](2026/01/skill/README.md) | [epoll 快速輪循](2026/01/c/README.md) | [算法：蒙地卡羅法](2026/01/python/README.md) | [Canvas 2D 繪圖](2026/01/javascript/README.md)
 [2 月](2026/02/README.md)   | [Pacman 網站測試](2026/02/skill/README.md) | [xv6：RISC-V 上的 UNIX v6](2026/02/c/README.md) | [算法：統計算法](2026/02/python/README.md) | [圖表套件](2026/02/javascript/README.md)
